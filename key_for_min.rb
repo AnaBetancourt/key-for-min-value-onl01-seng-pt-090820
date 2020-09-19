@@ -12,15 +12,3 @@ def key_for_min_value(name_hash)
   end
   key_value
 end
-
-def key_for_min_value(name_hash)
-  lowest_value = nil
-  key_value = nil
-  name_hash.collect do |name, number|
-    if smallest == nil || val < smallest
-      smallest = val
-      key = name
-    end
-  end
-  key
-end
